@@ -16,10 +16,11 @@ A renewed website for hack your future
 
 ## Home page navbar
 
-> "As a user I can see a nice navbar at top of home page" <br> "AS a user I can
-> see an apply button"
+> "As a user I can see a nice navbar at top of home page"
 
-**Issues**
+> "AS a user I can see an apply button"
+
+### Issues
 
 1- HTML:
 
@@ -38,28 +39,31 @@ A renewed website for hack your future
 
 - As a user I can see different sections about the website-
 
-  - [ ] We will make sections into issues that can be assigned to members
+  - [ ] We will make sections into issues that can be assigned to members.
 
-  **Issues**
+### Issues
 
-  1- HTML:
+1- HTML:
 
-  - [ ] use `section` to divide home page in sections.
-  - [ ] use `div`, `p` and `h1`to add descriptions on each section.
+- [ ] use `section` to divide home page in sections.
+- [ ] use `div`, `p` and `h1`to add descriptions on each section.
 
   2- CSS:
 
-  - [ ] use `class` to organize each section.
-  - [ ] use `blue` color hover.
-  - [ ] use `fontawesome` as font type.
+- [ ] use `class` to organize each section.
+- [ ] use `blue` color hover.
+- [ ] use `fontawesome` as font type.
 
 ## Navbar in every page except Apply form page
 
-- Navbar with navigation links into different pages **Issues**
+- Navbar with navigation links into different pages.
 
-  1- HTML:
+### Issues
 
-  - [ ] use `navbar` to define the navbar on top of each page
+1- HTML:
+
+- [ ] use `navbar` to define the navbar on top of each page
+
   - [ ] use navigation links to move through pages.
 
   2- CSS:
@@ -76,7 +80,7 @@ A renewed website for hack your future
 > "As a user I can see Social Media account links in footer part of each
 > mentioned page"
 
-**Issues**
+### Issues
 
 1- HTML:
 
