@@ -17,7 +17,6 @@ A renewed website for hack your future
 ## Home page navbar
 
 > "As a user I can see a nice navbar at top of home page"
-
 > "AS a user I can see an apply button"
 
 ### Issues
@@ -31,7 +30,7 @@ A renewed website for hack your future
 
 - [ ] use `right` align to place the logo.
 - [ ] use `blue` color hover.
-- [ ] use `fontawesome` as font type.
+- [ ] use `font awesome` as font type.
 
 ---
 
@@ -41,7 +40,7 @@ A renewed website for hack your future
 
   - [ ] We will make sections into issues that can be assigned to members.
 
-### Issues
+### Issues-1
 
 1- HTML:
 
@@ -52,13 +51,13 @@ A renewed website for hack your future
 
 - [ ] use `class` to organize each section.
 - [ ] use `blue` color hover.
-- [ ] use `fontawesome` as font type.
+- [ ] use `font awesome` as font type.
 
 ## Navbar in every page except Apply form page
 
 - Navbar with navigation links into different pages.
 
-### Issues
+### Issues-2
 
 1- HTML:
 
@@ -71,7 +70,7 @@ A renewed website for hack your future
   - [ ] use `class` to organize each section.
   - [ ] use `blue` color on `h1`
   - [ ] use `black` color on `p`
-  - [ ] use `fontawesome` as font type.
+  - [ ] use `font awesome` as font type.
 
 ---
 
@@ -80,7 +79,7 @@ A renewed website for hack your future
 > "As a user I can see Social Media account links in footer part of each
 > mentioned page"
 
-### Issues
+### Issues-3
 
 1- HTML:
 
@@ -91,6 +90,6 @@ A renewed website for hack your future
 
 - [ ] use `class` to organize each section.
 - [ ] use `blue` color hover.
-- [ ] use `fontawesome` as font type.
+- [ ] use `font awesome` as font type.
 
 ---
