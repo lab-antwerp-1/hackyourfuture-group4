@@ -14,107 +14,79 @@ A renewed website for hack your future
 
 > "As a user I can read the title as a logo"
 
-### Interface: Title of website
+## Home page navbar
 
-- Title
-  - [ ] HTML: a title will be provided in the banner and also at the top of
-        browser window
-  - [ ] CSS: a class will be applied for style
+> "As a user I can see a nice navbar at top of home page" <br> "AS a user I can
+> see an apply button"
 
----
+**Issues**
 
-## Banner above navbar
+1- HTML:
 
-> "As a user I can see a nice banner at the top of home page"
+- [ ] use `nav` to include the navigation bar.
+- [ ] use `ul` and `li` to add the navigation links.
 
-### Interface: Banner above navbar
+2- CSS:
 
-- Banner with nice car photos
-  - [ ] HTML: a banner will be designed and located in the header section
-  - [ ] CSS: a class will be created for style of banner container
-
----
-
-## Navbar in every page
-
-> "As a user I can use navigation links under the banner in every page"
-
-### Interface: Navbar in every page
-
-- Navbar with navigation links
-  - [ ] HTML: a navbar with 5 links will be designed and located under the
-        banner. It will consist of Home, About us, Rent, Models, Contact us
-        links.
-  - [ ] CSS: classes will be applied for style to the nav, ul, li, a tags
+- [ ] use `right` align to place the logo.
+- [ ] use `blue` color hover.
+- [ ] use `fontawesome` as font type.
 
 ---
 
-## Footer in every page
+## Body of home page
 
-> "As a user I can see Social Media account links in footer part of each page"
+- As a user I can see different sections about the website-
 
-### Interface: Footer in every page
+  - [ ] We will make sections into issues that can be assigned to members
 
-- Footer with Social Media account links
-  - [ ] HTML: a footer with 4 links will be designed and located at the bottom
-        of each page. It will consist of Facebook, Twitter, Gmail, Youtube links
-  - [ ] CSS: classes will be applied for style to the links and footer container
+  **Issues**
 
----
+  1- HTML:
 
-## Brief description about BNN car-rental
+  - [ ] use `section` to divide home page in sections.
+  - [ ] use `div`, `p` and `h1`to add descriptions on each section.
 
-> "As a user I can read a brief statement about BNN and click a button for
-> details"
+  2- CSS:
 
-### Interface: Brief statement about BNN car-rental
+  - [ ] use `class` to organize each section.
+  - [ ] use `blue` color hover.
+  - [ ] use `fontawesome` as font type.
 
-- A body of text and links
-  - [ ] HTML: a section with some brief description about BNN and a button for
-        more details
-  - [ ] CSS: a set of classes to style the contents
+## Navbar in every page except Apply form page
 
----
+- Navbar with navigation links into different pages **Issues**
 
-## Services section header
+  1- HTML:
 
-> "as a user I can read the services header"
+  - [ ] use `navbar` to define the navbar on top of each page
+  - [ ] use navigation links to move through pages.
 
-The services section needs a clear header that's easy to read.
+  2- CSS:
 
-### Interface: Services header
-
-> all the issues under this header have a `type: interface` label
-
-- Header with center css style
-  - [ ] HTML: a header element with the header
-  - [ ] CSS: a set of classes to make the header noticeable
+  - [ ] use `class` to organize each section.
+  - [ ] use `blue` color on `h1`
+  - [ ] use `black` color on `p`
+  - [ ] use `fontawesome` as font type.
 
 ---
 
-## Services
+## Footer in every page except Apply form page
 
-> "as a user I can read the services"
+> "As a user I can see Social Media account links in footer part of each
+> mentioned page"
 
-The services section needs to contain a brief description of each service
+**Issues**
 
-### Interface: Services
+1- HTML:
 
-> all the issues under this header have a `type: interface` label
+- [ ] use `navbar` to move to different social media accounts.
+- [ ] use icons to describe each social media account.
 
-- Services arranged in column
-  - [ ] HTML: 3 small columns with brief description about services
-  - [ ] CSS: a set of classes to make contents styled
+2- CSS:
 
-## About us page
+- [ ] use `class` to organize each section.
+- [ ] use `blue` color hover.
+- [ ] use `fontawesome` as font type.
 
-> " As a user I can see an about us page"
-
-As a user I can read a description of the website Vision and mission, the
-services it offers, and the project's history
-
-### Interface: About us
-
-- A body of text and pictures
-  - [ ] HTML: a section with some description about the project
-  - [ ] CSS: a class to make the text look fancy
+---
