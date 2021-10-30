@@ -12,14 +12,14 @@ A renewed website for hack your future
 
 ## Title of website
 
-> "As a user I can read the title as a logo"
+> "As a user I can read the title of the page"
 
 ## Home page navbar
 
 > "As a user I can see a nice navbar at top of home page"
 > "AS a user I can see an apply button"
 
-### Issues
+### Homepage navbar Issues
 
 1- HTML:
 
@@ -28,8 +28,9 @@ A renewed website for hack your future
 
 2- CSS:
 
-- [ ] use `right` align to place the logo.
+- [ ] use `left` align to place the logo.
 - [ ] use `blue` color hover.
+- [ ] use a `white` text color during hover
 - [ ] use `font awesome` as font type.
 
 ---
@@ -40,7 +41,7 @@ A renewed website for hack your future
 
   - [ ] We will make sections into issues that can be assigned to members.
 
-### Issues-1
+### Body of homepage Issues
 
 1- HTML:
 
@@ -57,11 +58,11 @@ A renewed website for hack your future
 
 - Navbar with navigation links into different pages.
 
-### Issues-2
+### Navbar Issues
 
 1- HTML:
 
-- [ ] use `navbar` to define the navbar on top of each page
+- [ ] use `nav` html tag to define the navbar on top of each page
 
   - [ ] use navigation links to move through pages.
 
@@ -79,11 +80,11 @@ A renewed website for hack your future
 > "As a user I can see Social Media account links in footer part of each
 > mentioned page"
 
-### Issues-3
+### Footer Issues
 
 1- HTML:
 
-- [ ] use `navbar` to move to different social media accounts.
+- [ ] use `footer` links to move to different social media accounts.
 - [ ] use icons to describe each social media account.
 
 2- CSS:
