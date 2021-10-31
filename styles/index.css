@@ -1,29 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Hack Your Future</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="main.js"></script>
-  </head>
-  <body>
-    <header>
-      <div class="header">header</div>
-    </header>
-    <main class="main">
-      <div class="intro common">introduction</div>
-      <div class="impact common">impact</div>
-      <div class="program common">program</div>
-      <div class="core-values common">core values</div>
-      <div class="success-stories common">success stories</div>
-      <div class="partners common">partners</div>
-      <div class="contact common">contact</div>
-      <div class="support common">support</div>
-    </main>
-    <footer>
-      <div class="footer">footer</div>
-    </footer>
-  </body>
-</html>
+.common {
+  width: 95%;
+  min-height: 300px;
+  margin: 15px auto;
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.header {
+  width: 95%;
+  min-height: 100px;
+  margin: 15px auto;
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.footer {
+  width: 95%;
+  min-height: 100px;
+  margin: 15px auto;
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
