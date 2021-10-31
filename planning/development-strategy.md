@@ -16,8 +16,8 @@ A renewed website for hack your future
 
 ## Home page navbar
 
-> "As a user I can see a nice navbar at top of home page"
-> "AS a user I can see an apply button"
+> "As a user I can see a nice navbar at top of home page" "AS a user I can see
+> an apply button"
 
 ### Homepage navbar Issues
 

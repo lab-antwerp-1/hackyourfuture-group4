@@ -17,19 +17,20 @@
   - [ ] _there will be navigation links to different parts_
 
 - As a user I want to see the contact Information of the company
-  - [ ] _There will be a section with a contact email, telephone, address and location_
-  
+  - [ ] _There will be a section with a contact email, telephone, address and
+        location_
 - As a user I want to read more about the company
-  - [ ] _there will be an about us section with the mission , vision and history_
-  
+  - [ ] _there will be an about us section with the mission , vision and
+        history_
 - As a user I want to see the partners for the company
-  
-    -[ ] _there will be a section that contains the logos of partner companies_
+
+  -[ ] _there will be a section that contains the logos of partner companies_
+
 - As a user I want to know more about the programs of the company
   - [ ] _there is a section wih the programs of the company_
-  
 - As a user I want to read about the volunteers
-  - [ ] _There will be a part in the website about the volunteers
+
+  - [ ] \_There will be a part in the website about the volunteers
 
 - As a user I want to see the footer
   - [ ] there will be a footer with important information
