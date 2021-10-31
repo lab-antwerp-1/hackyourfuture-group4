@@ -1,1 +1,21 @@
-@import url("./something.css");
+.common {
+  width: 95%;
+  min-height: 300px;
+  margin: 15px auto;
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.header {
+  width: 95%;
+  min-height: 100px;
+  margin: 15px auto;
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.footer {
+  width: 95%;
+  min-height: 100px;
+  margin: 15px auto;
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
