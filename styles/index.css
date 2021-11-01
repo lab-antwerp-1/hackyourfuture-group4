@@ -79,6 +79,7 @@ header * {
 .arrow {
   position: relative;
   top: -20px;
+  height: 80px;
 }
 .discover {
   font-size: 16px;
