@@ -6,14 +6,76 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .header {
+ 
   width: 95%;
   min-height: 100px;
   margin: 15px auto;
   padding: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+/*---------------------------------
+              Nav bar
+-----------------------------------*/
 
-/*core values section is here */
+/* header img{
+  height: 80px;
+    margin-left: 40px;
+} */
+
+header *{
+  display: inline;
+}
+.list{
+  margin-left: 800px;
+}
+.list li a{
+  color: black;
+  text-decoration: none;
+  margin: 20px;
+
+}
+/*---------------------------------
+              Our impact
+-----------------------------------*/
+.impact1 {
+  text-align: center;
+  margin: 5px;
+  padding: 20px 60px;
+  line-height: 1.5;
+}
+.impact2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.impact2-3div {
+  width: 30%;
+  height: auto;
+  background-color: rgb(54, 123, 250);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/*---- Our impact responsive---*/
+
+@media screen and (max-width: 600px) {
+  /* impact responsive section is here */
+  .impact2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .impact2-3div {
+    width: 90%;
+    height: auto;
+  }
+}
+
+/*---------------------------------
+              Core values
+-----------------------------------*/
 .core-values h2 {
   text-align: center;
 }
@@ -31,15 +93,8 @@
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-/*core values section is here */
 
-.footer {
-  width: 95%;
-  min-height: 100px;
-  margin: 15px auto;
-  padding: 10px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
+/*---- Core values responsive---*/
 
 @media screen and (max-width: 600px) {
   /*core values responsive section is here */
@@ -47,5 +102,16 @@
     display: grid;
     grid-template-columns: auto;
   }
-  /*core values responsive section is here */
+}
+
+/*---------------------------------
+             Footer
+-----------------------------------*/
+
+.footer {
+  width: 95%;
+  min-height: 100px;
+  margin: 15px auto;
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
