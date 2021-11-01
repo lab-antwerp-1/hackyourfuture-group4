@@ -6,6 +6,7 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .header {
+ 
   width: 95%;
   min-height: 100px;
   margin: 15px auto;
@@ -13,7 +14,30 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-/* impact section is here */
+/*---------------------------------
+              Nav bar
+-----------------------------------*/
+
+/* header img{
+  height: 80px;
+    margin-left: 40px;
+} */
+
+header *{
+  display: inline;
+}
+.list{
+  margin-left: 800px;
+}
+.list li a{
+  color: black;
+  text-decoration: none;
+  margin: 20px;
+
+}
+/*---------------------------------
+              Our impact
+-----------------------------------*/
 .impact1 {
   text-align: center;
   margin: 5px;
@@ -35,16 +59,7 @@
   line-height: 1.5;
   text-align: center;
 }
-/* impact section is here */
-
-.footer {
-  width: 95%;
-  min-height: 100px;
-  margin: 15px auto;
-  padding: 10px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
+/*---- Our impact responsive---*/
 @media screen and (max-width: 600px) {
   /* impact responsive section is here */
   .impact2 {
@@ -55,6 +70,13 @@
     width: 90%;
     height: auto;
   }
-  /* impact responsive section is here */
+}
+
+.footer {
+  width: 95%;
+  min-height: 100px;
+  margin: 15px auto;
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
