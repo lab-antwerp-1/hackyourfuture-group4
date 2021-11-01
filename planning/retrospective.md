@@ -11,17 +11,15 @@
 
 - Share tutorials, links etc among the group members
 
-- Summarize  and share the core points of the zoom meeting discussions in
-  slack channel/discord
-  
+- Summarize and share the core points of the zoom meeting discussions in slack
+  channel/discord
 - Assign Mervat as a team leader to manage communication
-  
+
 ## Lessons Learned
 
 - always understand the time of each others so we make a meeting
-  
-- Working in a group and communicating as much as possible is very
-helpful to be productive and meet project deadlines.
+- Working in a group and communicating as much as possible is very helpful to be
+  productive and meet project deadlines.
 
 ---
 
