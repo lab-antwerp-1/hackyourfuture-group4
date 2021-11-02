@@ -59,7 +59,7 @@
 -----------------------------------*/
 .nav-bar {
   float: right;
-  margin: 30px 30px;
+  margin: 30px;
 }
 ul li {
   display: inline;
@@ -90,7 +90,6 @@ ul li a:hover {
   margin: 30px;
   text-transform: uppercase;
   color: #fff;
-  font-family: aviva;
 }
 /*---------------------------------
               Our impact
