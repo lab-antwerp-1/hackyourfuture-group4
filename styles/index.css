@@ -3,61 +3,122 @@
   min-height: 300px;
   margin: 15px auto;
   padding: 10px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
-.header {
-  width: 95%;
-  min-height: 100px;
-  margin: 15px auto;
-  padding: 10px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-/*---------------------------------
-              Nav bar
------------------------------------*/
 
-/* header img{
-  height: 80px;
-    margin-left: 40px;
+
+/* ---------------------------------
+              Nav bar
+----------------------------------- */
+
+nav {
+  height: 100px;
+  width: 100%;
+}
+
+label.logo {
+  color: rgba(22, 19, 44, 0.836);
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: rgb(94, 82, 82);
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+}
+
+a::after {
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rgb(36, 30, 94);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+a:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+/*
+.checkbtn{
+    font-size: 30px;
+    color: blue;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media screen and (max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul{
+        font-size: 16px;
+    }
+    @media screen and (max-width: 858px){
+      .checkbtn{
+          display: block;
+
+      }
+      ul{
+
+          position:fixed;
+          width: 100%;
+          height: 100vh;
+          background: #ccbdbd;
+          top: 80px;
+          left: -100%;
+          text-align: center;
+          transition: all .5s;
+      }
+
+      nav ul li{
+          display: block;
+          margin: 50px 0;
+          line-height: 30px;
+
+
+      }
+      nav ul li a{
+          font-size: 20px;
+
+      }
+     #check:checked ~ ul{
+         left: 0%;
+
+     }
+    }
+
 } */
 
-header * {
-  display: inline;
-}
-.list {
-  margin-left: 800px;
-}
-.list li a {
-  color: black;
-  text-decoration: none;
-  margin: 20px;
-}
-/*---------------------------------
-              Our impact
------------------------------------*/
-.impact1 {
-  text-align: center;
-  margin: 5px;
-  padding: 20px 60px;
-  line-height: 1.5;
-}
-.impact2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.impact2-3div {
-  width: 30%;
-  height: auto;
-  background-color: rgb(54, 123, 250);
-  color: rgb(255, 255, 255);
-  padding: 10px;
-  margin: 20px;
-  line-height: 1.5;
-  text-align: center;
-}
 
-/*---- Our impact responsive---*/
+/* ---- Our impact responsive--- */
 
 @media screen and (max-width: 600px) {
   /* impact responsive section is here */
@@ -65,33 +126,40 @@ header * {
     display: flex;
     flex-direction: column;
   }
+
   .impact2-3div {
     width: 90%;
     height: auto;
   }
-} /*---------------------------------
+}
+
+/* ---------------------------------
               Program
------------------------------------*/
+----------------------------------- */
 .program {
   text-align: center;
   padding: 40px;
 }
+
 .arrow {
   position: relative;
   top: -20px;
   height: 80px;
 }
+
 .discover {
   font-size: 16px;
   padding: 20px 35px;
   text-align: center;
 }
-/*---------------------------------
+
+/* ---------------------------------
               Core values
------------------------------------*/
+----------------------------------- */
 .core-values h2 {
   text-align: center;
 }
+
 .core-values-div-wrapper {
   display: grid;
   grid-template-columns: auto auto;
@@ -99,32 +167,34 @@ header * {
   padding: 10px;
   margin: 20px;
 }
+
 .values-div {
   text-align: center;
   padding: 20px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0 -2px 6px 0 inset;
 }
 
-/*---- Core values responsive---*/
+/* ---- Core values responsive--- */
 
 @media screen and (max-width: 600px) {
-  /*core values responsive section is here */
+  /* core values responsive section is here */
   .core-values-div-wrapper {
     display: grid;
     grid-template-columns: auto;
   }
 }
 
-/*---------------------------------
+/* ---------------------------------
              Footer
------------------------------------*/
+----------------------------------- */
 
 .footer {
   width: 95%;
   min-height: 100px;
   margin: 15px auto;
   padding: 10px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
