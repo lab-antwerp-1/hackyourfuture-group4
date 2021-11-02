@@ -131,6 +131,9 @@ ul li a:hover {
 } /*---------------------------------
               Program
 -----------------------------------*/
+.program {
+  text-align: center;
+ }
 .our-program {
   text-align: center;
   padding: 40px;
