@@ -5,7 +5,7 @@
   margin: 0;
 }
 .common {
-  width: 95%;
+  width: 100%;
   min-height: 300px;
   margin: 15px auto;
   padding: 10px;
@@ -131,7 +131,7 @@ ul li a:hover {
 } /*---------------------------------
               Program
 -----------------------------------*/
-.program {
+.our-program {
   text-align: center;
   padding: 40px;
 }
