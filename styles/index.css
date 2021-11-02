@@ -68,7 +68,7 @@
               Nav bar
 ----------------------------------- */
 nav {
-  /* background: rgb(14, 11, 8); */
+  background:rgb(202, 195, 195);
   height: 80px;
   width: 100%;
 }
@@ -96,8 +96,14 @@ nav ul li a {
   font-family: "Shadows Into Light Two", sans-serif;
   position: relative;
 }
+nav ul li a{
+  color: rgb(77, 74, 72);
+  text-decoration: none;
+ 
+  position: relative;
+}
 
-a::after {
+nav ul li a::after {
   /* background: none repeat scroll 0 0 transparent; */
   bottom: 0;
   content: "";
@@ -110,7 +116,7 @@ a::after {
   width: 0;
 }
 
-a:hover::after {
+nav ul li a:hover::after {
   width: 100%;
   left: 0;
 }
