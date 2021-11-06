@@ -3,7 +3,7 @@
 --------------------------------- */
 * {
   box-sizing: border-box;
- }
+}
 
 body h2 {
   text-align: center;
@@ -94,7 +94,8 @@ nav ul li a:hover::after {
   width: 100%;
   left: 0;
 }
-.checkbtn{
+
+.checkbtn {
   font-size: 30px;
   color: blue;
   float: right;
@@ -103,63 +104,56 @@ nav ul li a:hover::after {
   cursor: pointer;
   display: none;
 }
-#check{
+
+#check {
   display: none;
 }
-@media screen and (max-width: 952px){
-  label.logo{
-      font-size: 30px;
-      padding-left: 50px;
+@media screen and (max-width: 952px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
   }
-  nav ul{
-      font-size: 16px;
+  nav ul {
+    font-size: 16px;
   }
-  @media screen and (max-width: 858px){
-    .checkbtn{
-        display: block;
-        
+  @media screen and (max-width: 858px) {
+    .checkbtn {
+      display: block;
     }
-    ul{
-       
-        position:fixed;
-        width: 100%;
-        height: 100vh;
-        background: #2c3e50;
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
+    ul {
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all 0.5s;
     }
 
-    nav ul li{
-        display: block;
-        margin: 20px 0;
-       
-        
-        
-
+    nav ul li {
+      display: block;
+      margin: 20px 0;
     }
-    nav ul li a{
-        font-size: 20px;
-        color: beige;
-
+    nav ul li a {
+      font-size: 20px;
+      color: beige;
     }
-a:hover,a.active{
-  background: none;
-  color: #0082e6;
-}
+    a:hover,
+    a.active {
+      background: none;
+      color: #0082e6;
+    }
 
+    .section1 {
+      background: beige;
+      background-size: cover;
+      height: calc(100vh - 80px);
+    }
 
-.section1{
-  background: beige;
-  background-size: cover;
-  height: calc(100vh - 80px);
-}
-
-   #check:checked ~ ul{
-       left: 0%;
-
-   }
+    #check:checked ~ ul {
+      left: 0%;
+    }
   }
 }
 .logo img {
@@ -172,23 +166,22 @@ a:hover,a.active{
                    Landing page
 ------------------------------------------------*/
 .landing-page {
-  background-image:
-  linear-gradient(
-  to bottom right,
-  rgba(255, 255, 255, 0.8),
-  rgba(0, 0, 255, 0.8),
-  rgba(0, 0, 255, 0.8),
-  rgba(0, 0, 255, 0.8)
-  ),
-  url("../assets/home-bg.jpeg");
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(255, 255, 255, 0.8),
+      rgba(0, 0, 255, 0.8),
+      rgba(0, 0, 255, 0.8),
+      rgba(0, 0, 255, 0.8)
+    ),
+    url("../assets/home-bg.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 100vh;
   position: relative;
-  }
-  .motto {
+}
+.motto {
   position: absolute;
   top: 50%;
   width: 100%;
@@ -270,6 +263,34 @@ a:hover,a.active{
   font-size: 16px;
   padding: 20px 35px;
   text-align: center;
+  color: lightblue;
+}
+.column {
+  float: left;
+  width: 40%;
+  padding: 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.picture {
+  object-fit: contain;
+}
+.picture2 {
+  height: 70%;
+  width: 50%;
+  overflow: hidden;
 }
 
 /* ---------------------------------
@@ -290,8 +311,7 @@ a:hover,a.active{
 .values-div {
   text-align: center;
   padding: 20px;
-  box-shadow:
-    rgba(50, 50, 93, 0.25) 0 50px 100px -20px,
+  box-shadow: rgba(50, 50, 93, 0.25) 0 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0 -2px 6px 0 inset;
 }
