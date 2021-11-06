@@ -94,6 +94,7 @@ nav ul li a:hover::after {
   width: 100%;
   left: 0;
 }
+
 .checkbtn {
   font-size: 30px;
   color: blue;
@@ -103,6 +104,7 @@ nav ul li a:hover::after {
   cursor: pointer;
   display: none;
 }
+
 #check {
   display: none;
 }
@@ -185,14 +187,14 @@ nav ul li a:hover::after {
   width: 100%;
   text-align: center;
   transform: translateY(-50%);
-}
-
-.motto h1 {
+  }
+  
+  .motto h1 {
   font-size: 40px;
   margin: 30px;
   text-transform: uppercase;
   color: #fff;
-}
+  }
 
 /* ---------------------------------
               Our impact
