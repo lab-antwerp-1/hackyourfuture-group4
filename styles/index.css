@@ -5,6 +5,12 @@
   box-sizing: border-box;
  }
 
+body h2 {
+  text-align: center;
+  color: rgb(101, 101, 187);
+  text-transform: uppercase;
+}
+
 .common {
   width: 95%;
   min-height: 300px;
@@ -223,6 +229,9 @@ a:hover,a.active{
   line-height: 1.5;
   text-align: center;
 }
+.impact2-3div h2 {
+  color: white;
+}
 
 /* ---- Our impact responsive--- */
 
@@ -385,6 +394,32 @@ a:hover,a.active{
   }
 }
 /* responsive success stories end here */
+
+/* partners start here */
+.partners-wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 15px;
+  margin: 60px 10px;
+}
+.partner {
+  max-width: 200px;
+  max-height: 200px;
+}
+.partners-images {
+  width: 100%;
+  height: auto;
+}
+/* partners end here */
+/* responsive partners start here */
+@media screen and (max-width: 600px) {
+  .partners-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5px;
+  }
+}
+/* responsive partners end here */
 
 /* ---------------------------------
              Footer
