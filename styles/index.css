@@ -398,13 +398,13 @@ a:hover,a.active{
 	display: flex;
 	flex-wrap: wrap;
 }
-ul{
-	list-style: none;
-}
 .footer{
 	background-color: #0a449b;
   padding: 20px 0;
   font-family: "Shadows Into Light Two", sans-serif;
+}
+.footer ul{
+	list-style: none;
 }
 .footer-col{
   width: 33%;
@@ -437,13 +437,8 @@ ul{
 	color: #ffffff;
 	text-decoration: none;
 	font-weight: 300;
-	color: #bbbbbb;
 	display: block;
 	transition: all 0.3s ease;
-}
-.footer-col ul li a:hover{
-	color: #ffffff;
-	padding-left: 8px;
 }
 .footer-col .social-links a{
 	display: inline-block;
@@ -460,6 +455,11 @@ ul{
 .footer-col .social-links a:hover{
 	color: #24262b;
 	background-color: #ffffff;
+}
+
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
 }
 
 /*responsive*/
