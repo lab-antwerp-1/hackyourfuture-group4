@@ -119,7 +119,7 @@ nav ul li a:hover::after {
         display: block;
         
     }
-    ul{
+   .nav-bar ul{
        
         position:fixed;
         width: 100%;
